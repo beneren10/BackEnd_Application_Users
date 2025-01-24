@@ -1,0 +1,20 @@
+{
+  "name": "freshcopy",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./server/index.js",
+    "setup-db": "node ./server/db/setup.js",
+    "dev": "nodemon ./server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.1"
+  }
+}
